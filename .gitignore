@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Runtime data
+backend/data/app.db
+backend/data/uploads/*
+backend/data/signed/*
+!.gitkeep
+
+# Environment files
+.env
+backend/.env
+frontend/.env
+
+# Build output
+frontend/dist/
+
+# OS files
+.DS_Store
+
+# Editor / IDE
+.venv/
+~$*
